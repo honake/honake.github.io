@@ -422,6 +422,21 @@ section.block {
   min-width: 0;
 }
 
+.work-status {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 5px 2px;
+  border: 1px solid color-mix(in srgb, var(--blue) 42%, var(--line));
+  color: var(--blue);
+  font-family: var(--mono);
+  font-size: 8.5px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  vertical-align: 0.14em;
+  white-space: nowrap;
+}
+
 .cap .go {
   font-family: var(--pixel);
   font-size: 12px;
